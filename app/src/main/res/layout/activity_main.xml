@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2c2c54">
+
+    <TextView
+        android:id="@+id/btxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#2c2c54"
+        android:textColor="#d1d8e0"
+        android:gravity="end|center"
+        android:textSize="120dp"
+        />
+    <TextView
+        android:id="@+id/stxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.08"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#2c2c54"
+        android:textColor="#d1d8e0"
+        android:gravity="end|center"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:textColor="#fa8231"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/ac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="AC"
+            android:textColor="#fa8231"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/per"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="%"
+            android:textColor="#fa8231"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/div"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="÷"
+            android:textColor="#fa8231"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"
+            />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/mul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="X"
+            android:textColor="#fa8231"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/minus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:textColor="#fa8231"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:textColor="#fa8231"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="."
+            android:textColor="#d1d8e0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/t0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="#d1d8e0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_background"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/equal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.668"
+            android:text="="
+            android:textColor="#d1d8e0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/equal_bg"
+            android:layout_margin="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.137">
+
+    </LinearLayout>
+
+</LinearLayout>
